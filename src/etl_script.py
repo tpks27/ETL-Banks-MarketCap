@@ -81,10 +81,10 @@ def run_query(query_statement, sql_connection):
 # Configuration variables
 url = "https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks"
 table_attribs = ["Name", "MC_USD_Billion"]
-db_name = 'Banks.db'
+db_name = './data/Banks.db'
 table_name = 'Largest_banks'
-csv_path = './Largest_banks_data.csv'
-exchange_rate_csv = "exchange_rate.csv"
+csv_path = './data/Largest_banks_data.csv'
+exchange_rate_csv = "/data/exchange_rate.csv"
 
 # Logging progress
 log_progress('Preliminaries complete. Initiating ETL process')
