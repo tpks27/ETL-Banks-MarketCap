@@ -14,10 +14,10 @@ Ensure you have Python installed (>= 3.8). You also need the required libraries 
 
 ## Files & Directories
 
-    src/etl_script.py: Main ETL script.
-    data/exchange_rate.csv: Currency exchange rates.
-    logs/code_log.txt: Logs progress and errors.
-    Banks.db: SQLite database storing the bank data.
+-src/etl_script.py: Main ETL script.
+-data/exchange_rate.csv: Currency exchange rates.
+-logs/code_log.txt: Logs progress and errors.
+-Banks.db: SQLite database storing the bank data.
 
 ## Future Improvements
 Add unit tests for better stability.
