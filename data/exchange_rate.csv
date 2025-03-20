@@ -1,4 +1,5 @@
-Currency	Rate
-EUR	0.93
-GBP	0.8
-INR	82.95
+Currency,Rate
+USD,1.0
+GBP,0.76
+EUR,0.85
+INR,83.0

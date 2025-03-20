@@ -14,7 +14,7 @@ def log_progress(message):
     timestamp = now.strftime(timestamp_format)
     log_message = f"{timestamp} : {message}\n"
     print(log_message)
-    with open("./code_log.txt", "a") as f:
+    with open("./logs/code_log.txt", "a") as f:
         f.write(log_message)
 
 def extract(url, table_attribs):
@@ -81,10 +81,10 @@ def run_query(query_statement, sql_connection):
 # Configuration variables
 url = "https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks"
 table_attribs = ["Name", "MC_USD_Billion"]
-db_name = './data/Banks.db'
+db_name = './Banks.db'
 table_name = 'Largest_banks'
 csv_path = './data/Largest_banks_data.csv'
-exchange_rate_csv = "/data/exchange_rate.csv"
+exchange_rate_csv = "./data/exchange_rate.csv"
 
 # Logging progress
 log_progress('Preliminaries complete. Initiating ETL process')
