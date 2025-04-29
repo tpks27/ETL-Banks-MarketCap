@@ -1,5 +1,5 @@
 # Acquiring and Processing Information on the World's Largest Banks 
-## Project Description
+## Project Description - Learned from Coursera
 This project extracts, transforms, and loads data about the largest banks' market capitalizations from a Wikipedia page. The data is converted into multiple currencies and stored in both CSV and SQLite database formats.
 ## Features
 --**Extracts bank data from Wikipedia using BeautifulSoup**.
